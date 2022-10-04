@@ -1,0 +1,24 @@
+.Card {
+  margin-top: 0.5rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card div h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.FAQsCard {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.FAQContainer:last-child {
+  margin-bottom: 70px;
+}
+.h2Container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

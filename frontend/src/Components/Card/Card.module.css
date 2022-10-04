@@ -1,0 +1,25 @@
+.Card {
+  margin-top: 0.5rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card div h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.h4Container {
+  padding-top: 2%;
+  font-size: 1.3rem;
+}
+.cardContentContainer {
+  width: 63vw;
+}
+.descLeftContainer {
+  margin-right: 2%;
+}
+.descRightContainer {
+  margin-left: 2%;
+}
