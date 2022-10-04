@@ -1,10 +1,10 @@
 /* FAQ Card */
 .FAQCard {
   width: 55vw;
-  margin-top: 10px;
+  margin-top: 1%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 40px;
+  padding: 0.1% 4%;
   background-color: #303030;
 }

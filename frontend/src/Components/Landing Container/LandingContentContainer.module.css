@@ -1,0 +1,19 @@
+.landingContentContainer {
+  width: 100vw;
+  margin: 7% auto;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.landingH2 {
+  width: 50vw;
+  margin-bottom: 0.8%;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.landingH4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}

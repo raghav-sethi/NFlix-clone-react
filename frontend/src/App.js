@@ -5,12 +5,22 @@ import tvImage from "../src/Assets/tv.png";
 import mobileImage from "../src/Assets/mobile-0819.jpg";
 import devicesImage from "../src/Assets/device-pile-in.png";
 import childrenImage from "../src/Assets/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png";
-import FAQToggle from "../src/Components/Card/FAQToggle";
 import FAQsCard from "../src/Components/Card/FAQsCard";
+import LandingContainer from "./Components/Landing Container/LandingContainer";
+import ImageContainer from "./Components/Landing Container/ImageContainer";
+import Navbar from "./Components/Navbar/Navbar";
+import { Fragment } from "react";
+import LandingContentContainer from "./Components/Landing Container/LandingContentContainer";
 
 function App() {
   return (
-    <>
+    <Fragment>
+      <LandingContainer>
+        <ImageContainer>
+          <Navbar />
+          <LandingContentContainer />
+        </ImageContainer>
+      </LandingContainer>
       <Card
         heading="Enjoy on your TV."
         desc="Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more."
@@ -35,17 +45,8 @@ function App() {
         src={childrenImage}
         alt="children"
       />
-      <FAQToggle
-        id="FAQCard1Toggle"
-        firstPara="Netflix is a streaming service that offers a wide variety of
-            award-winning TV shows, movies, anime, documentaries and more – on
-            thousands of internet-connected devices."
-        secondPara="You can watch as much as you want, whenever you want, without a
-            single ad – all for one low monthly price. There's always something
-            new to discover, and new TV shows and movies are added every week!"
-      />
       <FAQsCard />
-    </>
+    </Fragment>
   );
 }
 

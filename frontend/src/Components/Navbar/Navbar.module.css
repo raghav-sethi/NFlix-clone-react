@@ -1,0 +1,23 @@
+/* 3. Navbar Styles */
+.navbar {
+  padding: 3.5% 3%;
+  width: 100vw;
+}
+.navbar h1 {
+  color: #e50914;
+  font-size: 3.5rem;
+}
+.navbar select {
+  background-color: black;
+  color: white;
+  padding: 7px 17px;
+  margin-right: 4%;
+}
+.navbar button {
+  background-color: #e50914;
+  border: 1px solid #e50914;
+  color: white;
+  border-radius: 5px;
+  padding: 7px 21px;
+  font-weight: 600;
+}

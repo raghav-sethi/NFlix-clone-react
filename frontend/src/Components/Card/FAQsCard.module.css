@@ -15,8 +15,8 @@
   text-align: center;
   flex-direction: column;
 }
-.FAQContainer:last-child {
-  margin-bottom: 70px;
+.FAQContainer {
+  margin-bottom: 3%;
 }
 .h2Container {
   padding-top: 40px;

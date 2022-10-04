@@ -1,18 +1,17 @@
 .FAQToggleCard {
   width: 55vw;
-  margin-top: 1px;
+  margin-top: 1.3px;
   display: flex;
   flex-direction: column;
   text-align: left;
   background-color: #303030;
+  padding: 1.3% 4%;
 }
 .FAQToggleCard:last-child {
   margin-bottom: 20px;
 }
 .FAQToggleCard p {
-  padding: 5px 20px;
-  margin: 5px 20px;
-  margin-top: 5px;
+  margin-top: 0.5%;
 }
 /* Utility Classes */
 .hidden {
