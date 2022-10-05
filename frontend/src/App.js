@@ -11,6 +11,7 @@ import ImageContainer from "./Components/Landing Container/ImageContainer";
 import Navbar from "./Components/Navbar/Navbar";
 import { Fragment } from "react";
 import LandingContentContainer from "./Components/Landing Container/LandingContentContainer";
+import FooterCard from "./Components/Footer/FooterCard";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         alt="children"
       />
       <FAQsCard />
+      <FooterCard />
     </Fragment>
   );
 }
